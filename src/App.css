@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+@font-face {
+	font-family: 'Akaash';
+	src: url(./fonts/akaashnormal.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    @apply h-screen bg-zinc-700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6, p {
+    @apply text-white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    @apply text-3xl;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    @apply text-2xl;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    @apply text-lg;
+}
+
+h4 {
+    @apply text-base;
+}
+
+h5 {
+    @apply text-sm;
+}
+
+h6 {
+    @apply text-xs;
+}
+
+a {
+    @apply underline;
+}
+
+.header-text {
+    font-family: "Akaash", sans-serif;
+    font-size: 30px;
+	@apply text-white;
+}
+
+.card-animate {
+    transition: linear 250ms;
+}
+
+.card-animate:hover {
+    border-radius: 0px;
+    background-color: rgb(100, 100, 110);
+    cursor: pointer;
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
 }

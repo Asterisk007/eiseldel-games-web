@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" version="1.1" viewBox="0 0 132.29 132.29" xmlns="http://www.w3.org/2000/svg" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdfRDF>
+   <ccWork rdfAbout="">
+    <dcFormat>image/svg+xml</dcFormat>
+    <dcType rdfResource="http://purl.org/dc/dcmitype/StillImage"/>
+   </ccWork>
+  </rdfRDF>
+ </metadata>
+ <rect width="132.29" height="132.29" style="fill:#f00;paint-order:stroke fill markers;stroke-opacity:0"/>
+ <text x="65.073067" y="82.511223" style="fill:#0068b3;font-family:'Segoe UI';font-size:46.745px;paint-order:stroke fill markers;stroke-linecap:round;stroke-width:2.6458;stroke:#000000;text-align:center;text-anchor:middle" xml:space="preserve"><tspan x="65.073067" y="82.511223" style="stroke-width:2.6458;text-align:center;text-anchor:middle"/></text>
+ <path d="m28.991 23.321 50.876-3e-6v24.852l24.38 1e-6v51.821h-50.876v-24.852h-24.379z" style="fill:none;stroke-width:3.175;stroke:#ccc"/>
+ <path d="m30.049 24.379h48.759v49.704h-48.759z" style="fill:none;paint-order:stroke fill markers;stroke-linecap:round;stroke-width:3.175;stroke:#000"/>
+ <rect x="54.429" y="49.231" width="48.759" height="49.704" style="fill:none;paint-order:stroke fill markers;stroke-linecap:round;stroke-width:3.175;stroke:#000"/>
+</svg>
