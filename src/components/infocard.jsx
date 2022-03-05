@@ -21,7 +21,7 @@ class InfoCard extends Component {
 
     render() { 
         return (
-            <div className="max-w-md m-2 p-4 border-2 border-red-700 rounded-lg bg-zinc-600 card-animate" onClick={this.showInfoText}>
+            <div className="max-w-md m-2 p-4 border-2 border-red-700 rounded-lg bg-zinc-700 card-animate" onClick={this.showInfoText}>
                 <h3 className='block font-bold'>
                     {this.props.title}
                 </h3>
