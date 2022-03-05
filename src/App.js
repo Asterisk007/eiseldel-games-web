@@ -1,7 +1,4 @@
 import './App.css';
-import InfoCard from "./components/infocard.jsx";
-import { ReactComponent as EiseldelLogo } from "./images/eiseldel.svg";
-import { ReactComponent as ReactLogo } from "./images/react.svg";
 
 function App() {
     document.title = "Eiseldel Games";
