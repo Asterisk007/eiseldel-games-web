@@ -46,6 +46,17 @@ function App() {
                             <a href="https://eiseldel.itch.io/night-sky">Link to this game on Itch.io</a>
                         </p>
                     </InfoCard>
+                    <InfoCard title="Project Arture"
+                        body="Top-down roguelike shoot-em-up">
+                        <p>
+                            <a href="https://eiseldel.itch.io/arture">Link to this game on Itch.io</a>
+                            <br></br>
+                            The first game idea I've put a lot of time into since earning my degree.
+                            There's no super important mechanic or concept I'm chasing other than
+                            to learn to make a game all on my own. In a way, it's a way for me to toddle
+                            through game development on my own.
+                        </p>
+                    </InfoCard>
                 </div>
                 <hr className="m-2" />
                 <h2 className='block p-2'>Team projects</h2>
